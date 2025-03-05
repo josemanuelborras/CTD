@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incorporando JavaScript a HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Eventos del teclado</h1>
+    <h3 for="">OnKeyDown</h3>
+    <input type="text" id="input" onkeydown="keyDown(event)">
+    <hr>
+    <h3 for="">OnKeyUp</h3>
+    <input type="text" id="input" onkeyup="keyUp(event)">
+    <hr>
+    <h3 for="">OnKeyPress</h3>
+    <input type="text" id="input" onkeypress="keyPress(event)">
+    <hr>
+    <h3 for="">AltKey</h3>
+    <input type="text" id="input" onkeydown="altPress(event)">
+    <p id="alt">Presiona una tecla</p>
+    <hr>
+    <h3 for="">GetModifierState</h3>
+    <input type="text" id="input" onkeydown="modifier(event)">
+    <p id="capsLock"></p>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.overline {
+    text-decoration: overline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.solid {
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+.double {
+    text-decoration: overline;
+    text-decoration-style: double;
+}
+.dotted {
+    text-decoration: line-through;
+    text-decoration-style: dotted;
+}
+.dashed {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+.wavy {
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+}
+
+.thick {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.color {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: red;
+}
+
+.shorthand {
+    text-decoration: overline dotted blue 4px;
+}

@@ -1,0 +1,15 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(80, 146, 146);
+}
+
+.flex-container > div {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    margin: 20px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        
+        <title>Tablas</title>
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Tablas</h1>
+
+        <table>
+            <colgroup>
+                <col span="1" style="background-color: blue;">
+                <col style="background-color: red;">
+            </colgroup>
+            <tr>
+                <th>Alumnos</th>
+                <th colspan="2">Nombre y apellido</th>
+                <th>Notas</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Pedro</td>
+                <td>Perez</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rodrigo</td>
+                <td>Gonzalez</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Humberto</td>
+                <td rowspan="2">Velez</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Cecilia</td>
+                <td>10</td>
+            </tr>
+        </table>
+
+</html>

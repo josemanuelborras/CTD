@@ -1,0 +1,15 @@
+div {
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+p {
+    text-indent: 50px;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    word-spacing: 3px;
+    white-space: nowrap;
+}

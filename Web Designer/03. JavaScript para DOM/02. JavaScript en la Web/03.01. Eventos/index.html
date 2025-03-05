@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incorporando JavaScript a HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="checkCookies()" onunload="checkUnload()">
+    <h1>Eventos</h1>
+
+    <p onclick="this.innerHTML = 'Hola Mundo'">Click Aqui</p>
+
+    <p onclick="changeThisElement(this)">Click Aqui</p>
+    <hr>
+
+    <h4>Fecha de hoy:</h4>
+    <p id="test"></p>
+
+    <button id="btn">Click aqui</button>
+    <hr>
+
+    <p id="test2"></p>
+    <hr>
+    
+    <form>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" oninput="upperCase()">
+    </form>
+    <hr>
+    
+    <div onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+        Pasar el mouse por arriba
+    </div>
+    <hr>
+
+    <input type="text" onfocus="changeStyle()">
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+ul.desordenada {
+    list-style-type: square;
+}
+
+ol.ordenada {
+    list-style-type: decimal-leading-zero;
+}
+
+ul.imagen {
+    list-style-image: url(assets/icon.png);
+}
+
+ul.long-text {
+    list-style-position: inside;
+}
+
+ul.none {
+    list-style-type: none;
+}
+
+ul.background {
+    background: yellow;
+    margin: 10px;
+    padding: 5px 0;
+}
+
+ul.background li {
+    background: blue;
+    padding: 5px;
+    margin: 5px;
+}

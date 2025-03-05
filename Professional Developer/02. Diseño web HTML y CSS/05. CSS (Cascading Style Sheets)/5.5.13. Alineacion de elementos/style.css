@@ -1,0 +1,41 @@
+.center {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    height: 200px;
+}
+
+.floatl {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    float: left;
+}
+
+.floatr {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    float: right;
+}
+
+.positionr {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    position: absolute;
+    right: 10px;
+}

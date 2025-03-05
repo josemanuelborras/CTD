@@ -1,0 +1,26 @@
+
+div {
+    height: 200px;
+    width: 500px;
+    border: 2px solid black;
+}
+
+.left {
+    text-align: left;
+}
+
+.start {
+    text-align: start;
+}
+
+.center  {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.end {
+    text-align: end;
+}

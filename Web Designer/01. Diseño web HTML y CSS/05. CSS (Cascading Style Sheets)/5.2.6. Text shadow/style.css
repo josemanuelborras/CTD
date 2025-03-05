@@ -1,0 +1,11 @@
+.sombra-comun {
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+.sombra-negativa {
+    text-shadow: -2px -2px 8px #0000FF;
+}
+
+.neon {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}

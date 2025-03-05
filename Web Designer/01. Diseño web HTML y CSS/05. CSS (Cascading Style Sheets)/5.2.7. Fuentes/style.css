@@ -1,0 +1,38 @@
+div {
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sans-serif {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cursive {
+    font-family: 'lucida handwriting', cursive;
+}
+
+.fantasy {
+    font-family: 'cooperplate', fantasy;    
+}
+
+.style-weight-variant-size {
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 40px;
+}
+
+.shorthand {
+    font: italic small-caps 20px Arial, sans-serif;
+}

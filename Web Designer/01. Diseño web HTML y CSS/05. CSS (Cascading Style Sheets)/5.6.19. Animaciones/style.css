@@ -1,0 +1,73 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 2px;
+}
+
+.prueba {    
+    /* animation-name: prueba; */
+    /* animation-duration: 3s; */
+    /* animation-delay: 2s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: alternate;  */
+    animation: prueba 5s ease 2s infinite alternate;
+}
+/* keyframes */
+@keyframes prueba {
+    0% {
+        background-color: red;
+        height: 150px;
+        width: 150px;
+    }
+    25% {
+        background-color: green;
+        height: 100px;
+        width: 100px;
+    }
+    50% {
+        background-color: yellow;
+        height: 250px;
+        width: 250px;
+    }
+    75% {
+        background-color: blue;
+        height: 50px;
+        width: 50px;
+    }
+    100% {
+        background-color: red;
+        height: 150px;
+        width: 150px;
+    }
+}
+
+.curva1 {
+    animation: curva 1s linear infinite alternate;
+}
+
+.curva2 {
+    animation: curva 1s ease infinite alternate;
+}
+
+.curva3 {
+    animation: curva 1s ease-in infinite alternate;
+}
+
+.curva4 {
+    animation: curva 1s ease-out infinite alternate;
+}
+
+.curva5 {
+    animation: curva 1s ease-in-out infinite alternate;
+}
+
+@keyframes curva {
+    form {
+        width: 100px;
+    }
+
+    to {
+        width: 200px;
+    }
+}

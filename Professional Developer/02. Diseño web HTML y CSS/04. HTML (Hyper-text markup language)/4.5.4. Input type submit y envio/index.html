@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        
+        <title>Formularios</title>
+    </head>
+
+    <body>
+        <h1>Input submit y envio de formulario</h1>
+
+        <form method="post">
+            <h4>Datos peronales</h4>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido">
+            <br>
+
+            <h4>Situacion personal</h4>
+            <label for="empleado">Empleado</label>
+            <input type="radio" name="situacion-laboral" id="empleado" value="empleado">
+            <label for="desempleado">Desempleado</label>
+            <input type="radio" name="situacion-laboral" id="desempleado" value="desempleado">
+            <label for="busqueda">En busqueda activa</label>
+            <input type="radio" name="situacion-laboral" id="busqueda" value="busqueda">
+
+            <h4>Tecnologias</h4>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="tecnologias" id="html" value="1">
+            <label for="css">CSS</label>
+            <input type="checkbox" name="tecnologias" id="css" value="2">
+            <label for="javascript">JAVASCRIPT</label>
+            <input type="checkbox" name="tecnologias" id="javascript" value="3">
+            <label for="react">REACT</label>
+            <input type="checkbox" name="tecnologias" id="react" value="4">
+            <br>
+
+            <input type="submit" value="enviar">
+            
+        </form>
+    </body>
+</html>

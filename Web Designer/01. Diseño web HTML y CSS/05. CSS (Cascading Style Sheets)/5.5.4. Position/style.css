@@ -1,0 +1,39 @@
+p {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+div {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    max-width: 80%;
+}
+
+#relative {
+    position: relative;
+    color: red;
+    top: 55px;
+    left: 15px;
+}
+
+#fixed {
+    position: fixed;
+    color: blue;
+    top: 55px;
+    left: 15px;
+}
+
+#absolute {
+    position: absolute;
+    color: green;
+    top: 0;
+    left: 0;
+}
+
+#sticky {
+    position: sticky;
+    color: orange;
+    top: 0;
+}

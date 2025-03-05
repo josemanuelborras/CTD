@@ -1,0 +1,59 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 1s, transform 2s;
+    margin: 1px;
+}
+
+div:hover {
+    width: 300px;
+    transform: rotate(180deg);
+}
+
+.velocidad1 {
+ transition-timing-function: linear;
+}
+
+.velocidad2 {
+ transition-timing-function: ease;
+}
+
+.velocidad3 {
+ transition-timing-function: ease-in;
+}
+
+.velocidad4 {
+ transition-timing-function: ease-out;
+}
+
+.velocidad5 {
+ transition-timing-function: ease-in-out;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(155, 213, 228);
+    transition: background-color 0.5s, color 0.5s;
+    color: black;
+}
+
+button:hover {
+    color: blue;
+    background-color: rgb(188, 196, 198);
+}
+
+input {
+    width: 150px;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+input:hover {
+    background-color: aqua;
+}
+
+input:focus {
+    background-color: red;
+}

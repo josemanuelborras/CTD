@@ -1,0 +1,11 @@
+div {
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+p {
+    font-family: "Roboto Condensed", sans-serif;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incorporando JavaScript a HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>BOM Browser Object Model: window</h1>
+
+    <button id="btn1" onclick="clickMe()">Click aca</button>
+    <hr>
+    <button id="btn2" onclick="openWindow()">Click aca</button>
+    <hr>
+    <button id="btn3" onclick="history()">Click aca</button>
+    <button id="btn4">Volver a la pagina anterior</button>
+    <button id="btn5">Volver a la pagina posterior</button>
+    <hr>
+    <p>La pantalla tiene un alto de: </p>
+    <p id="screenh"></p>
+    <p>La pantalla tiene un ancho de: </p>
+    <p id="screenw"></p>
+    <p>La pantalla tiene una profundidad de color de: </p>
+    <p id="screenc"></p>
+    <hr>
+    <p>Estamos en la siguiente url: </p>
+    <p id="location"></p>
+    <hr>
+    <p>Usamos cookies?</p>
+    <p id="cookies"></p>
+    <hr>
+    <p>Navegador</p>
+    <p id="browser"></p>
+    <p>Sistema Operativo</p>
+    <p id="so"></p>
+    
+    <script src="script.js"></script>
+</body>
+</html>

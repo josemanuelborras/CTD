@@ -1,0 +1,30 @@
+body {
+    font-size: 30px;
+}
+
+p {
+    font-size: 1em; /* tendra 30px en body y 15px dentro del div */
+}
+
+div {
+    font-size: 15px;
+}
+
+span {
+    font-size: .5rem; 
+}
+
+.caja-externa {
+    border: 1px solid black;
+    background-color: aqua;
+
+    width: 100%;
+    height: 50vh;
+}
+
+.caja-interna {
+    border: 1px solid black;
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}

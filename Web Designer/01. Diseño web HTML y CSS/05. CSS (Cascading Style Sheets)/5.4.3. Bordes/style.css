@@ -1,0 +1,73 @@
+div {
+    width: 200px;
+    height: 50px;
+}
+
+p {
+    text-align: center;
+    border-width: 5px;
+}
+
+.solid {
+    border-style: solid;
+}
+
+.dotted {
+    border-style: dotted;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.double {
+    border-style: double;
+}
+
+.groove {
+    border-style: groove;
+}
+
+.ridge {
+    border-style: ridge;
+}
+
+.inset {
+    border-style: inset;
+}
+
+.outset {
+    border-style: outset;
+}
+
+.none {
+    border-style: none;
+}
+
+.hidden {
+    border-style: hidden;
+}
+
+.border  {
+    border-width: 4px;
+}
+
+.border2 {
+    border-width: 2px px;
+}
+
+.border4 {
+    border-width: 2px 4px 6px 8px;
+}
+
+.radius-valor {
+    border-radius: 4px;
+}
+
+.radius-valor2 {
+    border-radius: 2px 8px;
+}
+
+.radius-valor4 {
+    border-radius: 2px 8px 16px 24px;
+}

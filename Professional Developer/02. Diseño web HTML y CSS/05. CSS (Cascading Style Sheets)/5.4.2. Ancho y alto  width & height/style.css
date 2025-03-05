@@ -1,0 +1,23 @@
+.contenedor1 {
+    background-color: blue;
+    width: 100px;
+    height: 200px;
+}
+
+.contenedor2 {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor3 {
+    background-color: red;
+    max-width: 200px;
+    max-height: 100px;
+}
+
+.contenedor4 {
+    background-color: yellow;
+    min-width: 200px;
+    min-height: 100px;
+}

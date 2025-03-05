@@ -1,0 +1,23 @@
+#color {
+    color: blue;
+}
+
+#rgb {
+    color: rgb(0, 0, 255);
+}
+
+#rgba {
+    color: rgba(0, 0, 255, 0.5);
+}
+
+#rrggbb {
+    color: #0000ff;
+}
+
+#rrggbboo {
+    color: #0000ff80;
+}
+
+#hsl {
+    color: hsl(240, 100%, 50%);
+}
